@@ -9,10 +9,11 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <title>Contact Info</title>
+    <title>Contact info</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <h1>Contact Info</h1>
   <body>
+    <!--begin navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand bg-info p-2" href="./index.html">Sterling Orth</a>
       <button
@@ -42,9 +43,10 @@
         </ul>
       </div>
     </nav>
+
     <div class="input-group input-group-sm mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+        <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
       </div>
       <input
         type="text"
@@ -57,7 +59,7 @@
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text" id="inputGroup-sizing-default"
-          >Default</span
+          >Email</span
         >
       </div>
       <input
@@ -70,7 +72,7 @@
 
     <div class="input-group input-group-lg">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+        <span class="input-group-text" id="inputGroup-sizing-lg">message</span>
       </div>
       <input
         type="text"
@@ -81,5 +83,11 @@
 
       <button type="button" class="btn btn-primary btn-lg">Submit</button>
     </div>
+    <!--sticky footer-->
+    <footer class="footer">
+      <div class="container">
+        <span class="text muted">Made with <3 by Sterling</span>
+      </div>
+    </footer>
   </body>
 </html>
