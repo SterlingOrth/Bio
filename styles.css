@@ -1,8 +1,7 @@
-body {
-  background-color: seagreen;
-}
-
 /* body {
-  background-image: url(./nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
-  overflow-x: hidden;
+  background-image: url("\Pictures\background.jpg");
 } */
+
+body {
+  <footer class="fixed-bottom">Made with <3 By Sterling</footer>
+}
