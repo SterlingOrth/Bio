@@ -1,7 +1,15 @@
-/* body {
-  background-image: url("\Pictures\background.jpg");
-} */
-
-body {
-  <footer class="fixed-bottom">Made with <3 By Sterling</footer>
+/* background */
+.body {
+  background-image: ("/styles.css");
 }
+/* sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+ 
