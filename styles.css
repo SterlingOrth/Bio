@@ -1,6 +1,7 @@
 /* background */
-.body {
-  background-image: ("/styles.css");
+body {
+  /* background-image: url("Pictures\background.jpg"); */
+ background-color: rgb(221, 215, 215);
 }
 /* sticky footer */
 .footer {
@@ -11,5 +12,3 @@
   background-color: red;
   color: white;
   text-align: center;
-
- 
