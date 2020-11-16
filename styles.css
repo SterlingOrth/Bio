@@ -1,7 +1,10 @@
 /* background */
 body {
-  /* background-image: url("Pictures\background.jpg"); */
- background-color: rgb(221, 215, 215);
+  background-image: url("Pictures/orangeSkyline.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
 }
 /* sticky footer */
 .footer {
@@ -12,3 +15,27 @@ body {
   background-color: red;
   color: white;
   text-align: center;
+  font-style: oblique;
+}
+
+#card {
+  opacity: 0.6;
+}
+
+h1 {
+  color: rgb(218, 62, 62);
+  text-align: center;
+  font-style: italic bold;
+  text-shadow: 5px 5px black;
+}
+
+#contactInfo {
+  color: rgb(228, 117, 26);
+  text-align: center;
+  font-style: italic;
+  text-shadow: 5px 5px black;
+}
+
+.class {
+  text-align: center;
+}
